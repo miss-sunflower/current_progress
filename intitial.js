@@ -107,5 +107,17 @@ console.log(myName.toLowerCase());
 myName = "Elhanah Otasowie".toLowerCase(); //change the case of the words
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`); //the conclusion of the whole project
+//Conditonal Statements
+let sale = false;
+if(sale == true){
+  console.log("Time to buy!");
+}
+
+let hungerLevel = 7;
+if(hungerLevel => 7){
+  console.log('Time to eat!');
+}else{
+  console.log('We can eat later!');
+}
 
 
