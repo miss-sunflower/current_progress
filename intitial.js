@@ -127,6 +127,24 @@ if(mood != 'sleepy' || tirednessLevel > 8){
 } else {
   console.log('not bed time yet');
 }
+//truthy values and falsy values
+//essentially empty sttrings and values that are not zero
+let wordCount = 2; //not zero, so truthy
+
+if (wordCount) {
+  console.log("Great! You've started your work!");
+} else {
+  console.log('Better get to work!');
+}
+
+
+let favoritePhrase = '';//empty, so falsy
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
+}
 
 
 
