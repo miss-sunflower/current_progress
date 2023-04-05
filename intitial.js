@@ -200,6 +200,23 @@ switch(randomNumber){
 }
 
  
+// 
 // control flow statements - the project
+let raceNumber = Math.floor(Math.random() * 1000);
+let registerTime = false;
+let runningAge = 18;
+ if(registerTime === true && runningAge >= 18){
+   raceNumber += 1000;
+ }
+ if(runningAge > 18 && registerTime === true){
+   console.log(` Adult Runner ${raceNumber} will race at 9:30AM.`);
+ } else if(runningAge > 18 && registerTime === false){
+    console.log(` Adult Runner ${raceNumber} will race at 11:00AM.`);
+ } else if(runningAge < 18){
+   console.log(`Youth Runner ${raceNumber} will race at 12:30PM (reagrdless of registration)`);
+ } else{
+   console.log('Please see the Registration Desk.');
+ }
+
 
 
