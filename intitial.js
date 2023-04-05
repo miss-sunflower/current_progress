@@ -232,6 +232,11 @@ function sayThanks(){
 sayThanks(); // don't forget the brackets
 sayThanks();
 sayThanks();
+function makeShoppingList(item1 = "milk", item2 = "bread", item3 = "eggs"){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
 
 //adding lessons in parameters
 function sayThanks(name) {
@@ -239,3 +244,10 @@ function sayThanks(name) {
 }
 //parameters are basicalling identifying the input to the formula you want to use/create
 sayThanks('Cole');//then you put the actual figures/words when you're calling the function
+//default parameters
+function makeShoppingList(item1 = "milk", item2 = "bread", item3 = "eggs"){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+
