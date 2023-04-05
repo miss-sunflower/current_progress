@@ -218,5 +218,12 @@ let runningAge = 18;
    console.log('Please see the Registration Desk.');
  }
 
+//introduction to functions
+function getReminder(){
+  console.log('Water the plants.');
+}
+function greetInSpanish(){
+  console.log('Buenas tardes.')
+}
 
 
