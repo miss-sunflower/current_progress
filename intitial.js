@@ -232,3 +232,10 @@ function sayThanks(){
 sayThanks(); // don't forget the brackets
 sayThanks();
 sayThanks();
+
+//adding lessons in parameters
+function sayThanks(name) {
+  console.log('Thank you for your purchase '+ name + '! We appreciate your business.');
+}
+//parameters are basicalling identifying the input to the formula you want to use/create
+sayThanks('Cole');//then you put the actual figures/words when you're calling the function
