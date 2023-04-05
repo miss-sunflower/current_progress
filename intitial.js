@@ -225,5 +225,10 @@ function getReminder(){
 function greetInSpanish(){
   console.log('Buenas tardes.')
 }
-
-
+//more on calling functions
+function sayThanks(){
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+sayThanks(); // don't forget the brackets
+sayThanks();
+sayThanks();
