@@ -284,4 +284,6 @@ const plantNeedsWater = (day) => {
     return false;
   }
 };
+//tenary expression and a concise body arrow function
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
 
