@@ -302,4 +302,19 @@ const stars =  "North Star";
    return "Night Sky: " + satellite + ", " + stars + ", and " + galaxy;
     }
 console.log(callMyNightSky());
+
+//a lesson in global and local variables
+onst logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  // Add if statement here:
+  if(region === "The Arctic"){
+    let lightWaves = "Northern Lights";
+    console.log(lightWaves);
+  }
+  
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
   
