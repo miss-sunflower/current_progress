@@ -338,3 +338,8 @@ console.log(newYearsResolutions);
 //here are some hobbies
 const hobbies = ['drawing', 'surviving', 'eating gummy bears'];
 console.log(hobbies);
+//presenting the order of indices
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+
+let listItem = famousSayings[0];
+console.log(famousSayings[3]); //will give an undefined result
