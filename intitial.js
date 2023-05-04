@@ -317,4 +317,16 @@ onst logVisibleLightWaves = () => {
 };
 
 logVisibleLightWaves();
+//original experiment for the code blocks and scopes
+const flower = "Sunflower"; //global variable
+const variety = "Chrysanthemum";
+
+const field = () => { //start of a code block
+   let flower = "Daisy"; // local variable
+   return flower;
+}//end of code block
+console.log(field());
+console.log(flower);
+console.log(variety);
+console.log('These flowers make for a pretty garden. I actually want a garden.')
   
