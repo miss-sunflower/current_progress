@@ -329,4 +329,8 @@ console.log(field());
 console.log(flower);
 console.log(variety);
 console.log('These flowers make for a pretty garden. I actually want a garden.')
-  
+
+//creating a lesson in arrays
+let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+
+console.log(newYearsResolutions);
