@@ -365,6 +365,11 @@ const chores = ['wash dishes', 'do laundry', 'take out trash'];
 chores.push('make bed', 'iron clothes');
 console.log(chores);
 
+//.pop() removes the last element
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+chores.pop();
+console.log(chores);
+
 
 
 
