@@ -343,3 +343,16 @@ const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious th
 
 let listItem = famousSayings[0];
 console.log(famousSayings[3]); //will give an undefined result
+
+//arrays using let and const and which ones can be reassigned
+let condiments = ["Ketchup", "Mustard", "Soy Sauce", "Sriracha"];
+condiments[0] = "Mayo";
+console.log(condiments);
+
+condiments = ["Mayo"];
+console.log(condiments);
+
+const utensils = ["Fork", "Knife", "Chopsticks", "Spork"];
+utensils[3] = "Spoon";
+console.log(utensils);
+
