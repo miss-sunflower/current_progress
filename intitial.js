@@ -356,3 +356,9 @@ const utensils = ["Fork", "Knife", "Chopsticks", "Spork"];
 utensils[3] = "Spoon";
 console.log(utensils);
 
+//a  lesson in using the .length property
+const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
+console.log(objectives.length);
+
+
+
