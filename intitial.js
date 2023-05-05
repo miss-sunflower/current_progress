@@ -360,5 +360,11 @@ console.log(utensils);
 const objectives = ['Learn a new language', 'Read 52 books', 'Run a marathon'];
 console.log(objectives.length);
 
+//added a lesson in the .push() method
+const chores = ['wash dishes', 'do laundry', 'take out trash'];
+chores.push('make bed', 'iron clothes');
+console.log(chores);
+
+
 
 
