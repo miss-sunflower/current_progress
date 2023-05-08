@@ -380,7 +380,12 @@ console.log(chores);
 const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 const removed = groceryList.shift();
 console.log(groceryList);
-
+//small excerpts of the array, kinda like a range
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
+ const pastaIndex =groceryList.indexOf('pasta'); // gives you the index of the item
+ console.log(pastaIndex);
+ 
 
 
 
