@@ -126,6 +126,13 @@ if(mood != 'sleepy' || tirednessLevel > 8){
   console.log("time to sleep");
 } else {
   console.log('not bed time yet');
+￼
+miss-sunflower committed 15 minutes ago Verified
+1 parent 8d36ca0
+commit 9971e1b
+Showing 1 changed file with 6 additions and 0 deletions.
+￼Split￼Unified
+
 }
 //truthy values and falsy values
 //essentially empty sttrings and values that are not zero
@@ -371,7 +378,7 @@ chores.pop();
 console.log(chores);
 //a lesson in the removal of the first item from the array
 const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
-const completed = groceryList.shift();
+const removed = groceryList.shift();
 console.log(groceryList);
 
 
