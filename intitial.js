@@ -385,6 +385,24 @@ console.log(groceryList.slice(1, 4));
 console.log(groceryList);
  const pastaIndex =groceryList.indexOf('pasta'); // gives you the index of the item
  console.log(pastaIndex);
+
+//added a lesson in usuing functions and arrays together
+const concept = ['arrays', 'can', 'be', 'mutated'];
+
+function changeArr(arr){
+  arr[3] = 'MUTATED';
+}
+
+changeArr(concept);
+console.log(concept);
+const removeElement = (newArr) =>{
+  newArr.pop();//removed the last element in the array
+}
+removeElement(concept); // uses the elements inside concept
+console.log(concept);
+
+
+
  
 
 
