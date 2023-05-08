@@ -401,6 +401,16 @@ const removeElement = (newArr) =>{
 removeElement(concept); // uses the elements inside concept
 console.log(concept);
 
+//a lesson in nested arrays
+et numberClusters = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+ const target = numberClusters[2][1];
+ 
+
+
 
 
  
