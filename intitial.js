@@ -369,6 +369,12 @@ console.log(chores);
 const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
 chores.pop();
 console.log(chores);
+//a lesson in the removal of the first item from the array
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+const completed = groceryList.shift();
+console.log(groceryList);
+
+
 
 
 
