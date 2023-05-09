@@ -422,6 +422,12 @@ console.log(numberClusters);
 const target = numberClusters[2][1];
 console.log(target);
  
+//for loops in JS
+for( let i = 5; i <= 10; i++){
+  console.log(i);
+}
+
+
 
 
 
