@@ -408,6 +408,19 @@ et numberClusters = [
   [5, 6],
 ];
  const target = numberClusters[2][1];
+//a recap of arrays
+let numberClusters = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+console.log(numberClusters.length);
+numberClusters.push([2,3]);
+console.log(numberClusters);
+numberClusters.pop();
+console.log(numberClusters);
+const target = numberClusters[2][1];
+console.log(target);
  
 
 
