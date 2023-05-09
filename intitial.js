@@ -427,6 +427,14 @@ for( let i = 5; i <= 10; i++){
   console.log(i);
 }
 
+//using the .length property of an array prevernts geuessing how long the array is
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+// Write your code below
+for(let i = 0; i < vacationSpots.length; i++ ){
+  console.log(`I would love to visit ${vacationSpots[i]}`);
+
+}
 
 
 
