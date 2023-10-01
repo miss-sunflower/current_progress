@@ -386,7 +386,7 @@ console.log(groceryList);
  const pastaIndex =groceryList.indexOf('pasta'); // gives you the index of the item
  console.log(pastaIndex);
 
-//added a lesson in usuing functions and arrays together
+//added a lesson in using functions and arrays together
 const concept = ['arrays', 'can', 'be', 'mutated'];
 
 function changeArr(arr){
@@ -427,7 +427,7 @@ for( let i = 5; i <= 10; i++){
   console.log(i);
 }
 
-//using the .length property of an array prevernts geuessing how long the array is
+//using the .length property of an array prevents guessing how long the array is
 const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 
 // Write your code below
@@ -435,6 +435,17 @@ for(let i = 0; i < vacationSpots.length; i++ ){
   console.log(`I would love to visit ${vacationSpots[i]}`);
 
 }
+
+// A lesson in do while loops
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+do {
+  cupsAdded ++;
+} while(cupsAdded < cupsOfSugarNeeded){
+  console.log(cupsAdded)
+  };
+
+
 
 
 
