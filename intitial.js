@@ -445,6 +445,22 @@ do {
   console.log(cupsAdded)
   };
 
+//added a review of loops
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+
+for (let i = 0; i < groceryList.length; i++){
+  console.log(groceryList[i]);
+}
+let j = 0;
+do{
+  
+  j++;
+
+} while(  j < groceryList.length){
+  console.log(groceryList);
+};
+
+
 
 
 
