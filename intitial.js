@@ -311,7 +311,7 @@ const stars =  "North Star";
 console.log(callMyNightSky());
 
 //a lesson in global and local variables
-onst logVisibleLightWaves = () => {
+const logVisibleLightWaves = () => {
   let lightWaves = 'Moonlight';
 	let region = 'The Arctic';
   // Add if statement here:
